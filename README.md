@@ -27,28 +27,6 @@ DemoBrief is the missing layer between discovery and delivery.
 3. **Prospect leave-behind** — A personalized memo written to the prospect, not about them
 4. **Follow-up email** — Subject line specific to their situation; body opens with their exact phrase in quotes
 
-## Getting started
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Set up your API key
-cp .env.example .env.local
-# Edit .env.local and add your Anthropic API key
-
-# 3. Run the dev server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Configuration
-
-| Variable | Required | Description |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | Yes | Your Anthropic API key from [console.anthropic.com](https://console.anthropic.com) |
-
 ## Architecture
 
 ```
